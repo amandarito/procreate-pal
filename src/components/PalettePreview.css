@@ -1,0 +1,22 @@
+.palette-container {
+    border: 2px solid hsla(0,0,0,0.1);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: light-dark(rgba(0, 0, 0, 0.042), rgba(255,255,255, 0.042));
+}
+
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 7px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.color-box {
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 5px;
+}
